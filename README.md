@@ -7,11 +7,15 @@ The purpose of this project is to code a small data exchange program using UNIX 
 - [Usage](#usage)
 
 ## Usage
-1. compile the programme
+1. compile the programme, you will get 2 executable files "client" and "server".
 ```bash
   make
 ```
-2. you will have an 2 executable files "client" and "server" that can be executed with a configfile (there is an exemple in ./configFiles/)
+2. run the server
 ```bash
-  ./webserv configFiles/default.conf
+  ./server
+```
+2. send a text with the client 
+```bash
+  ./client "<your text>"
 ```
