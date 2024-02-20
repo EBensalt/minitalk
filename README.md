@@ -11,7 +11,7 @@ The purpose of this project is to code a small data exchange program using UNIX 
 ```bash
   make
 ```
-2. you will have an executable file "webserv" that can be executed with a configfile (there is an exemple in ./configFiles/)
+2. you will have an 2 executable files "client" and "server" that can be executed with a configfile (there is an exemple in ./configFiles/)
 ```bash
   ./webserv configFiles/default.conf
 ```
